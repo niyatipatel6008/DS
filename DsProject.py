@@ -15,13 +15,13 @@ def testing_function():
     return "<p>Fuck You it works!</p>"
 
 
-@app.route("/checkPrime")
-def prime():
-    x = int(request.args.get('numberToCheck'))
-    print(x)
-    print(type(x))
-    for i in range(2, x):
-        if x % i == 0:
-            return "False"
-    return "True"
+# @app.route("/checkPrime")
+#def prime():
+  #  x = int(request.args.get('numberToCheck'))
+   # print(x)
+  #  print(type(x))
+   # for i in range(2, x):
+    #    if x % i == 0:
+       #     return "False"
+   # return "True" 
     
